@@ -7,17 +7,20 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>РЕЗЮМЕ</title>
     <link rel="stylesheet" href="css/index.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:200i,300,300i,400" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i" rel="stylesheet">
 </head>
 
 <body>
     <header>
         <div class="info">
-            <img class="info_img" src="img/portret.png" alt="My resume" height="100" width="100">
+            <img class="info_img" src="img/avatar.png" alt="My resume" height="100" width="100">
             <blockquote class="info_text"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel repellat iure voluptatem incidunt dolorum libero modi quisquam cum consectetur aut aliquid impedit, necessitatibus ea explicabo architecto nisi consequatur officiis velit. Architecto
                 alias porro mollitia praesentium sunt fuga ipsam ab, sapiente sint laboriosam placeat hic illo iusto earum, consequatur qui odio debitis aliquam! Deleniti assumenda molestiae et dolores, aut ipsum itaque. Vero, dolores natus est neque
                 error laudantium, placeat nisi perspiciatis esse harum voluptas perferendis magnam accusamus? Placeat fugiat voluptate dolor! Possimus dolores impedit commodi illo facere. Non fuga eum ut? </blockquote>
         </div>
+        <p class="info_more">Read More</p>
+        <p class="info_bio"></p>
 
     </header>
     <section class="wrap">
@@ -47,7 +50,7 @@
             <h2>Education</h2>
             <ul>
                 <li>lviv Univercity of Ivan Franko</li>
-                <li>w3scool</li>
+                <li>w3school</li>
                 <li>codecademy</li>
                 <li>freeCodeCamp</li>
 
@@ -63,9 +66,33 @@
             </ul>
         </section>
     </section>
-    <footer>
-        <a href="pilipchackiivan@gmail.com">E-mail</a>
+    <section class="work">
+        <div class="work_hint" id="work_hint">
+            <h4>linck on github</h4>
+        </div>
+        <h3>My Portfolio Work</h3>
+        <img class="work_click" id="first" src="img/img.png" alt="click" width="40px" height="40px">
+        <img class="work_click" id="second" src="img/img.png" alt="click" width="40px" height="40px">
+        <img class="work_click" id="third" src="img/img.png" alt="click" width="40px" height="40px">
+        <p id="discription">shop on HTML5, CSS3(flexBox), jQuery,(slider, dropDownMenu and form validate) </p>
+        <a id="work_linck" target="blanck" href="https://github.com/ivanpilipchack/ivanpilipchack.github.io">https://github.com/ivanpilipchack/ivanpilipchack.github.io</a>
+        <img class="work_img" id="show_img" src="img/foiini.PNG" alt="shop">
+        <label id="btn" for=""> Add Comment</label>
+    </section>
+    <section id="fiedBack">
+        <label id="labbel">Your Fiedback</label>
+        <form action="#" id="fiedBackForm">
+            <textarea id="fiedText" placeholder="Your fiedback"></textarea>
+        </form>
+    </section>
+    <footer id="footer">
+        <a href="pilipchackiivan@gmail.com" id="email">E-mail</a>
     </footer>
+
+    <!-- Linck for javaScript -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="js/clean.js"></script>
+    <script src="js/index.js"></script>
 </body>
 
 </html>
